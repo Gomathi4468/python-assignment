@@ -1,0 +1,139 @@
+                      MCQ
+1. What will be the output of the following Python code?
+i = 1
+while i<=3:
+    if i%3 == 0:
+        i+=3
+    print(i)
+ 
+    i += 1
+
+2. What is the output of this expression, 3*1**3?
+a) 27
+b) 9
+c) 3
+d) 1
+
+3. What does ~4 evaluate to?
+a) -5
+b) -4
+c) -3
+d) +3
+
+4.  What will be the output of the following Python code?
+
+if (9 < 0) and (0 < -9):
+    print("hello")
+elif (9 > 0) or False:
+    print("good")
+else:
+    print("bad")
+
+5.  What will be the output of the following Python code?
+
+a = True
+b = False
+c = False
+  
+if not a or b: 
+    print 1
+elif not a or not b and c: 
+    print 2
+elif not a or b or not b and a: 
+    print 3
+else: 
+    print 4
+
+6. What will be the output of the following Python code?
+
+
+a = "Ocean Academy "
+  
+b = 13
+  
+print(a + b) 
+
+7. Which of the following is an invalid statement?
+
+(A) abc = 1,000,000
+(B) a b c = 1000 2000 3000
+(C) a,b,c = 1000, 2000, 3000
+(D) a_b_c = 1,000,000
+
+8. Which of the following symbols are used for comments in Python?
+
+(A) //
+(B) ''
+(C) /**/
+(D) #
+
+9. Output of the program.
+
+n="ocean"
+m="academy"
+if n=="Ocean":
+     print(n)
+elif m=="academy":
+     print(m)
+else:
+     print(n+m)
+
+10 . What does the following code print to the console?
+
+if 1 and False:
+    print("1 is truthy!")
+else:
+    print("???")
+
+11. What does the following code print to the console?
+
+n=6
+m=0
+for i in range(20):
+     m+=1
+     if i ==n:
+          print("stop",m)
+          break
+     else:
+          continue
+          print("It goes on")
+
+12. What does the following code print to the console?
+i = 1
+while True:
+    if i%2 == 0:
+        break
+    print(i)
+    i += 2
+
+13.  Output of the program.
+
+x = 10
+y = 50
+if (x ** 2 == 100 and y < 100):
+    print(x, y)
+
+
+Coding question:
+
+1. Get a input n and print the value of n in reverse order.
+
+Sample input:
+12345
+
+Sample output:
+54321
+
+Sample input:
+ocean
+
+Sample output:
+naeco
+
+2. Print the pattern.
+Input: n=5
+*
+**
+***
+****
+*****
